@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+
+}
+body{
+    background-image:url(back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+    background-position: bottom ;
+}
+.game_area
+{
+    background-color: #ffffff;
+ width: 75%;   
+ height: 95vh;
+ 
+ margin: 0 auto;
+
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.player-1
+{
+    background-color:#ffffff;
+    width: 50%;
+    float: left;
+    height: 100%;
+   
+    text-align: center;
+    position: relative;
+
+    font-size: large;
+     /* display: inline; */
+
+}
+.player-2
+{
+   
+    /* display: inline; */
+    width: 50%;
+    text-align: center;
+    position: relative;
+    font-size: large;
+  
+    float: left;
+    height: 100%;
+    background-color: rgb(218, 218, 218);
+}
+.playerName
+{
+    
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    padding: 20px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.score-area
+{
+    margin-top: 50px;
+    font-size: 70px;
+    color: red;
+    
+}
+.score-area h1
+{
+
+position: absolute;
+left: 150px;
+
+    padding: 20px;
+
+}
+
+.Active-score{
+    background-color: rgb(255, 41, 41);
+   position: absolute;
+   bottom: 20%;
+
+   padding: 7px 20px;
+
+   margin-left: 36%;
+
+}
+.Active-score h6{
+    margin-top: 15px;
+    font-size: xx-large;
+    color: #ffffff;
+}
+.dice-area img
+{
+    width: 100px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%,50%);
+}
+.NewButton
+{
+    text-transform: uppercase;
+    z-index: 1;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    font-size: 20px;
+    background-color: #ffffff00;
+    transform: translate(-50%,50%);
+    border:  0;
+
+}
+.RollButton
+{
+    text-transform: uppercase;
+    z-index: 1;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    font-size: 20px;
+    background-color: #ffffff00;
+    transform: translate(-50%,-80%);
+    border:  0;
+
+}
+.HoldButton
+{
+    text-transform: uppercase;
+    z-index: 1;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 20px;
+    background-color: #ffffff00;
+    transform: translate(-50%,50%);
+    border:  0;
+
+}
